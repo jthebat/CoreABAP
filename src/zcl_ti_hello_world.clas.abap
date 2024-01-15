@@ -115,14 +115,18 @@ CLASS zcl_ti_hello_world IMPLEMENTATION.
 *my_var4 = my_var2 + my_var3.
 
 "Inline Declaration with DATA Statement
-DATA(my_var1) = 'Hello World'.
-DATA(my_var2) = 17.
-DATA(my_var3) = my_var2.
-DATA(my_var4) = my_var2 + my_var3.
-out->write( my_var1 ).
-out->write( my_var2 ).
-out->write( my_var3 ).
-out->write( my_var4 ).
+*DATA(my_var1) = 'Hello World'.
+*DATA(my_var2) = 17.
+*DATA(my_var3) = my_var2.
+*DATA(my_var4) = my_var2 + my_var3.
+*out->write( my_var1 ).
+*out->write( my_var2 ).
+*out->write( my_var3 ).
+*out->write( my_var4 ).
+DATA(my_var5) = 18.
+
+
+
 
   ENDMETHOD.
 ENDCLASS.
